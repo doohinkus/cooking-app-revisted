@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
     <title>Cooking App</title>
   </head>
   <body>
+    <div class="container">
     <h1>Cooking App</h1>
-    <script src="js/scripts.js"></script>
+    <!-- <script src="js/scripts.js"></script> -->
+    <!-- <div class="row">
+      <div class="col-md-4">
+        <form id="gallonToLiter">
+          <label for="gallons">Enter gallons to convert to liters:</label>
+              <input id="gallons" class="form-control" type="text">
+            <label for="liters">Enter liters to convert to gallons:</label>
+              <input id="liters" class="form-control" type="text">
+            <label for="cups">Enter cups to convert to liters:</label>
+               <input id="cups" class="form-control" type="text">
+            <label for="liters2">Enter liters to convert to cups:</label>
+                <input id="liters2" class="form-control" type="text">
+            <label for="ounces">Enter ounces to convert to milliliters:</label>
+                <input id="ounces" class="form-control" type="text">
+              <label for="milliliters">Enter milliliters to convert to ounces:</label>
+                <input id="milliliters" class="form-control" type="text">
+        </form> -->
+        <div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="...">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li><a href="#" id="gallons"> Convert gallons to liters</a></li>
+          <li><a href="#" id="liters">Convert liters to gallons</a></li>
+          <li><a href="#" id="cups2liters">Convert cups to liters</a></li>
+          <li><a href="#" id="liters2cups">Convert liters to cups</a></li>
+          <li><a href="#" id="ounces">Convert ounces to milliliters</a></li>
+          <li><a href="#" id="milliliters">Convert milliliters to ounces</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+  <div class="col-md-6">
+  <h1 id="answer"></h1>
+  </div>
+</div><!-- /.row -->
+      </div>
 
+    </div>
+  </div>
   </body>
 </html>
